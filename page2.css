@@ -552,7 +552,7 @@ margin-left: 2vw;
   display: none;
   }
 } 
-@media (max-width: 450px) {
+@media (max-width: 420px) {
   .card {
     height: 82vh;
       width: 80vw;
