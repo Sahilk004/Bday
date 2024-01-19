@@ -496,49 +496,59 @@ body {
   display: none;
 }
 @media (max-width: 600px) {
-  .card {
-    height: 90vh;
-      width: 80vw;
-      margin-top: 45vw;
-      margin-left: 10vw;
-  }
+.card {
+  height: 90vh;
+    width: 80vw;
+    margin-top: 20vw;
+    margin-left: 7vw;
+}
 
-  #birthday-cake {
-    display: none;
-  }
+#birthday-cake {
+  display: none;
+}
 
-  .left{
-    height: 30vw;
-    width: 50vw;
-    position: absolute;
-    left: 13vw;
-    top: 27%;
-  }
-  
-  .left h2{
-    position: absolute;
-    font-size: 2.7vw;
-    background: linear-gradient(to right top, rgba(237, 35, 217, 0.807),rgb(250, 224, 59));
-    -webkit-background-clip: text;
-    color: transparent;
-  }
+.left{
+  height: 30vw;
+  width: 50vw;
+  position: absolute;
+  left: 15vw;
+  top: 27%;
+}
+
+.left h2{
+  position: absolute;
+  font-size: 2.7vw;
+  background: linear-gradient(to right top, rgba(237, 35, 217, 0.807),rgb(250, 224, 59));
+  -webkit-background-clip: text;
+  color: transparent;
+}
 
 
 .audio{
-    position: absolute;
-    right: 20%;
-    top: 15%;
+  position: absolute;
+  right: 20%;
+  top: 15%;
 }
 
 .lyrics{
-    color: transparent;
-    background: linear-gradient(to right top,#454343,#f704ff);
-    -webkit-background-clip: text;
-    font-size: 2.5vw;
+  color: transparent;
+  background: linear-gradient(to right top,#454343,#f704ff);
+  -webkit-background-clip: text;
+  font-size: 2.5vw;
 }
+.balloon-container{
+  position: relative;
+  bottom: -127vw; 
+  display: inline-block;
+  }
 .balloon1 {
-  animation: balloons1 forwards;
-  font-size: 58px;
-  margin-left: 25px;
+animation: balloons1 forwards;
+margin-left: 2vw;
+}
+.balloon2 {
+  display: none;
+  }
+  .balloon3 {
+  display: none;
   }
 } 
