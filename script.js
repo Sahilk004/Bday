@@ -1,5 +1,8 @@
-let moveCount = 0;
+function openNewPage() {
+  window.location.href = 'page2.html';
+}
 
+    let moveCount = 0;
     function moveButton() {
       const button = document.getElementById('moveButton');
       const maxX = window.innerWidth - button.offsetWidth;
