@@ -552,3 +552,65 @@ margin-left: 2vw;
   display: none;
   }
 } 
+@media (max-width: 450px) {
+  .card {
+    height: 82vh;
+      width: 80vw;
+      margin-top: 20vw;
+      margin-left: 2vw;
+  }
+  
+  #birthday-cake {
+    display: none;
+  }
+
+
+  
+  .left{
+    height: 30vw;
+    width: 50vw;
+    position: absolute;
+    left: 15vw;
+    top: 27%;
+  }
+  
+  .left h2{
+    position: absolute;
+    font-size: 3vw;
+    background: linear-gradient(to right top, rgba(237, 35, 217, 0.807),rgb(250, 224, 59));
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  
+  .audio{
+    position: absolute;
+    right: 20%;
+    top: 16%;
+  }
+  
+  .lyrics{
+    color: transparent;
+    background: linear-gradient(to right top,#454343,#f704ff);
+    -webkit-background-clip: text;
+    font-size: 2.5vw;
+  }
+  .balloon-container{
+    position: relative;
+    bottom: -175vw; 
+    display: inline-block;
+    }
+  .balloon1 {
+  animation: balloons1 forwards;
+  margin-left: 0vw;
+  }
+  .balloon1:nth-child(5){
+    display: none;
+  }
+  .balloon2 {
+    display: none;
+    }
+    .balloon3 {
+    display: none;
+    }
+  } 
