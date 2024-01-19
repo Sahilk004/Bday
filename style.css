@@ -40,8 +40,8 @@ html,body{
 }
 
 .answer{
-  height: 40px;
-  width: 120px;
+   height: 3vw;
+  width: 7.5vw;
   background-color: rgba(239, 39, 79, 0.921);
   border-radius: 20px;
   box-shadow: 3px 5px 10px #000;
@@ -55,8 +55,8 @@ html,body{
 }
 
 #moveButton {
-  height: 40px;
-  width: 120px;
+  height: 3vw;
+  width: 7.5vw;
   background-color: rgba(239, 39, 79, 0.921);
   border-radius: 20px;
   box-shadow: 3px 5px 10px #000;
