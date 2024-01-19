@@ -68,3 +68,36 @@ html,body{
   margin-top: 20px;
 }
 
+@media (max-width: 420px) {
+  .page1 h2{
+    font-size: 10vw;
+  }
+  .img-container{
+    height: 30vw;
+    width: 30vw;
+    background-color: transparent;
+  }
+
+  .answer{
+    height: 7vw;
+    width: 17vw;
+    background-color: rgba(239, 39, 79, 0.921);
+    border-radius: 20px;
+    box-shadow: 3px 5px 10px #000;
+    /* margin-left: -70px;
+    margin-right: 70px; */
+  }
+  #moveButton {
+    height: 7vw;
+    width: 17vw;
+    background-color: rgba(239, 39, 79, 0.921);
+    border-radius: 20px;
+    box-shadow: 3px 5px 10px #000;
+    gap: 2vw;
+    margin: 0 0.9vw;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    transition: left 0.5s, top 0.5s;
+    margin-top: 3.2vw;
+  }
+}
