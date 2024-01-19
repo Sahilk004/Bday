@@ -576,7 +576,7 @@ margin-left: 2vw;
   
   .left h2{
     position: absolute;
-    font-size: 3vw;
+    font-size: 3.3vw;
     background: linear-gradient(to right top, rgba(237, 35, 217, 0.807),rgb(250, 224, 59));
     -webkit-background-clip: text;
     color: transparent;
@@ -585,7 +585,7 @@ margin-left: 2vw;
   
   .audio{
     position: absolute;
-    right: 20%;
+    right: 13%;
     top: 16%;
   }
   
