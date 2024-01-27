@@ -565,11 +565,14 @@ margin-left: 2vw;
   .card {
     height: 60vh;
       width: 80vw;
-      margin-top: 20vw;
+      margin-top: 5vw;
       margin-left: 3vw;
       padding-top: 3vw;
   }
-  
+  .card h1{
+    font-size: 5.7vw;
+  }
+
   #birthday-cake {
     display: none;
   }
@@ -605,7 +608,7 @@ margin-left: 2vw;
   }
   .balloon-container{
     position: relative;
-    bottom: -190vw; 
+    bottom: -210vw; 
     display: inline-block;
     }
   .balloon1 {
