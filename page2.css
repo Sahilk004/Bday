@@ -563,10 +563,11 @@ margin-left: 2vw;
 
 @media (max-width: 420px) {
   .card {
-    height: 70vh;
+    height: 60vh;
       width: 80vw;
       margin-top: 20vw;
       margin-left: 3vw;
+      padding-top: 3vw;
   }
   
   #birthday-cake {
@@ -604,7 +605,7 @@ margin-left: 2vw;
   }
   .balloon-container{
     position: relative;
-    bottom: -200vw; 
+    bottom: -190vw; 
     display: inline-block;
     }
   .balloon1 {
