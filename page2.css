@@ -380,7 +380,9 @@ body {
   position: absolute;
   color: #000;
   top: 0%;
-  font-size: 25px;
+  font-size: 3.2vw;
+font-weight: 700;
+word-spacing: 0.7vw;
   background: linear-gradient(to right top, rgba(237, 35, 217, 0.807),rgb(250, 224, 59));
   -webkit-background-clip: text;
   color: transparent;
